@@ -5,7 +5,7 @@ Created on Fri Oct 21 15:39:26 2022
 @author: Guiraud Jean
 """
 
-list1 = ["z_4", 'ok_2', 'ok_1', 'mag_34', "z_2", 'ok_3', 'z_9', 'o_2', 'qsmdlkjf_14', 'o_18', 'z_960', 'GAL-MGT-ESA-GMS-X-1788_3.4_GALILEO FOC2 GROUND MISSION SEGMENT AND GALILEO SECURITY FACILITY CONTRACTUAL INDEX STATUS LIST (CISL)"', 'GAL-MGT-ESA-GMS-X-1788_3.2_GALILEO FOC2 GROUND MISSION SEGMENT AND GALILEO SECURITY FACILITY CONTRACTUAL INDEX STATUS LIST (CISL)']
+list1 = ["z_4", 'ok_2', 'ok_1', 'mag_34', "z_2", 'ok_3', 'z_9', 'o_2', 'qsmdlkjf_14', 'o_18', 'z_960']
 list1.sort()
 
 print(list1)
