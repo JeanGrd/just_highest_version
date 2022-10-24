@@ -44,8 +44,7 @@ def just_highest_issues(splitter, n_splitter, list_to_split):
         
         if cut_string1[n_splitter] != cut_string2[n_splitter]:
             list_highest_issue.append(list_to_split[val])
-
-                
+         
     return list_highest_issue
 
 if __name__ == "__main__" :    
