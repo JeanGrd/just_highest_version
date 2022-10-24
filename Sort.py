@@ -19,6 +19,16 @@ Written by : Jean Guiraud
 
 def just_high_issues(splitter, n_splitter, list_to_split): 
     
+    """
+    
+    Get the highest issue from a list
+    
+    @splitter = the separator
+    @n_splitter = the position of the issue (example : 2_issue the position is 0)
+    @list_to_split = your list where you want to keep the highest issue
+    
+    """
+    
     list_to_split.sort()
     list_high_issue = []    
     
@@ -41,4 +51,4 @@ if __name__ == "__main__" :
     print(list_test) 
     print("\n------------------------------------------------------\n")
     print(just_high_issues("_", 0, list_test))
-        
+       
