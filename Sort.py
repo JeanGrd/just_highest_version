@@ -32,15 +32,18 @@ def just_high_issues(splitter, n_splitter, list_to_split):
     list_to_split.sort()
     list_high_issue = []    
     
-    for val in range(len(list_to_split) - 1) :
-    
+    for val in range(len(list_to_split)) :
+                
         cut_string1 = list_to_split[val].split(splitter)
+        
+        if val == len(list_to_split) - 1:
+            list_high_issue.append(list_to_split[val])
+            continue
+        
         cut_string2 = list_to_split[val+1].split(splitter)
         
         if cut_string1[n_splitter] != cut_string2[n_splitter]:
             list_high_issue.append(list_to_split[val])
-        elif val == len(list_to_split) - 2 :
-            list_high_issue.append(list_to_split[val+1])
             
     return list_high_issue
 
