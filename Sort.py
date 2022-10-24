@@ -17,7 +17,7 @@ Written by : Jean Guiraud
 # !/usr/bin/env python3
 # Python version : 3.8
 
-def just_high_issues(splitter, n_splitter, list_to_split): 
+def just_highest_issues(splitter, n_splitter, list_to_split): 
     
     """
     
@@ -30,22 +30,23 @@ def just_high_issues(splitter, n_splitter, list_to_split):
     """
     
     list_to_split.sort()
-    list_high_issue = []    
-    
+    list_highest_issue = []    
+        
     for val in range(len(list_to_split)) :
                 
         cut_string1 = list_to_split[val].split(splitter)
         
         if val == len(list_to_split) - 1:
-            list_high_issue.append(list_to_split[val])
+            list_highest_issue.append(list_to_split[val])
             break
         
         cut_string2 = list_to_split[val+1].split(splitter)
         
         if cut_string1[n_splitter] != cut_string2[n_splitter]:
-            list_high_issue.append(list_to_split[val])
-            
-    return list_high_issue
+            list_highest_issue.append(list_to_split[val])
+
+                
+    return list_highest_issue
 
 if __name__ == "__main__" :    
 
@@ -53,5 +54,5 @@ if __name__ == "__main__" :
     
     print(list_test) 
     print("\n------------------------------------------------------\n")
-    print(just_high_issues("_", 0, list_test))
+    print(just_highest_issues("_", 0, list_test))
        
