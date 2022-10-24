@@ -38,7 +38,7 @@ def just_high_issues(splitter, n_splitter, list_to_split):
         
         if val == len(list_to_split) - 1:
             list_high_issue.append(list_to_split[val])
-            continue
+            break
         
         cut_string2 = list_to_split[val+1].split(splitter)
         
