@@ -24,7 +24,7 @@ def just_high_issues(splitter, n_splitter, list_to_split):
     Get the highest issue from a list
     
     @splitter = the separator
-    @n_splitter = the position of the issue (example : 2_issue the position is 0)
+    @n_splitter = the position of the issue name (example : issue_2 the position is 0)
     @list_to_split = your list where you want to keep the highest issue
     
     """
