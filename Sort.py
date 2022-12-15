@@ -26,8 +26,8 @@ def just_highest_issues(splitter: str, n_splitter: str, version: int, list_to_sp
     **params**
     
         - splitter = the separator
-        - n_splitter = the position of the issue name (example : issue_2 the position is 0 : issue)
-        - version = the position of the version that you want to compare (example issue_2 is the position 1 : 2)
+        - n_splitter = the position of the issue name *(example : issue_2 the position is 0 : issue)*
+        - version = the position of the version that you want to compare *(example issue_2 is the position 1 : 2)*
         - list_to_split = your list where you want to keep the highest issue
     
     """
