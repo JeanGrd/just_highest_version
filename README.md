@@ -1,4 +1,4 @@
-# Keep only the highest version in a text box
+# Keep only the highest version in a text box from a list
 
 This code is just a test function for Moko application.
 It allows to keep the highest version from a list where version is located in a text box with separators, in my case, the separator is '_'. 
