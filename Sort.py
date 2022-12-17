@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 ---------------------------------------------------------------------------------------------------------------
-Title : Keep only the highest version in a text box
+Title : Keep only the highest version in a text box from a list
 
 Remark : This code is just a test function for Moko application
 It allows to keep the highest version from a list where version is
