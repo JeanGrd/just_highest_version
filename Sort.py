@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 ---------------------------------------------------------------------------------------------------------------
-Title : Keep only the highest version in a text box
+Title : Keep only the highest version in a text box from a list
 
 Remark : This code is just a test function for Moko application
 It allows to keep the highest version from a list where version is
@@ -16,7 +16,7 @@ Written by : Jean Guiraud
 # !/usr/bin/env python3
 # Python version : 3.8
 
-def just_highest_version(splitter: str, n_splitter: str, version: int, list_to_split: list):
+def just_highest_version(splitter: str, n_splitter: str, version: int, list_to_split: list) -> str:
     """
     Keep the highest version from a list where version is located in a text box with separators
     
