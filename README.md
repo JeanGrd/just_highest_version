@@ -1,9 +1,12 @@
-# Just the highest issues
+# Keep only the highest version in a text box from a list
 
-This code is just a test function for Moko application It allows to keep the highest issue from a list where issue is located in a text box with separators, in my case, the separator is '_'.
+This code is just a test function for Moko application.
+It allows to keep the highest version from a list where version is located in a text box with separators, in my case, the separator is '_'. 
 
-Moko - Thales Alenia Space 
+*(Readme in progress...)*
 
 ---
+
+**Developed for Moko** - Thales Alenia Space
 
 **Written by : Jean Guiraud**
