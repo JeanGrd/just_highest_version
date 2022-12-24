@@ -31,7 +31,7 @@ def just_highest_version(splitter: str, n_splitter: str, version: int, list_to_s
 
     val = 0
     while val < len(list_to_split) - 1:
-        max = 0
+        max = maxInd = 0
         group = element = list_to_split[val].split(splitter)
 
         while element[n_splitter] == group[n_splitter]:
