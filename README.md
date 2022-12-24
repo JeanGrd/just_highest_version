@@ -2,10 +2,10 @@
 
 This code defines a function called just_highest_version that takes in four arguments:
 
-- splitter: a string that represents the separator used to split each element in the list.
-- n_splitter: an integer that represents the position of the version name in the split element.
-- version: an integer that represents the position of the version number in the split element.
-- list_to_split: a list of strings that represent the elements that need to be processed.
+- **splitter:** a string that represents the separator used to split each element in the list.
+- **n_splitter:** an integer that represents the position of the version name in the split element.
+- **version:** an integer that represents the position of the version number in the split element.
+- **list_to_split:** a list of strings that represent the elements that need to be processed.
 
 ## Code explanation
 
