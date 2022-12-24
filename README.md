@@ -24,5 +24,5 @@ The purpose of this function is to keep only the highest version of each group o
 ---
 
 **Developed for Moko** - Thales Alenia Space
-
+\
 **Written by : Jean Guiraud**
