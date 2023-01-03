@@ -15,7 +15,7 @@ Written by : Jean Guiraud
 # !/usr/bin/env python3
 # Python version : 3.8
 
-def just_highest_version(splitter: str, n_splitter: str, version: int, list_to_split: list) -> str:
+def just_highest_version(splitter: str, n_splitter: int, version: int, list_to_split: list) -> str:
     """
     Keep the highest version from a list where version is located in a text box with separators
     
